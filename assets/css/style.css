@@ -1,13 +1,55 @@
 body{
     display:flex;
     flex-direction: column;
-    line-height: 1.3;
+    line-height: 1.5;
+    font-size: 18px;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
+    padding: 1%;
+    background-color: rgb(53, 53, 121);
+    color:#fff;
+}
+
+h1{
+    margin: 3%;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    margin: 5% 0;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%; 
+    
+}
+h3{
+    margin: 5% 0;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%; 
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+nav a{
+    color: antiquewhite;
+    font-weight: 200;
+    text-decoration:underline ;
+    
+}
+
+main{
+    display:flex;
+    
+    max-width: 1200px;
+    margin: 2% auto;
 }
 
