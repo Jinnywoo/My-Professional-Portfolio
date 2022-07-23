@@ -34,6 +34,14 @@ header h1{
     font-size: 64px;
     font-weight: bold;
 }
+
+a:hover{
+    color:var(--clicked)
+}
+a:active{
+    color:var(--light)
+}
+
 nav a {
     color:var(--eton);
     font-size: 18px;
@@ -47,8 +55,8 @@ body{
 
 .containerStyle{
     display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: var(--steel);
     color:var(--light);
     width:98%;
@@ -67,17 +75,71 @@ body{
     max-width: 200px;
     max-height: 300px;
     border-radius: 30%;
-    border-width: 5px;
-    border-color: var(--dark);
-    border-style: double;
+    border: 5px double var(--dark);
+    
 }
 
 .aboutMe h2{
+    display: flex;
     font-size: 50px;
 }
 
 .aboutMe{
+    padding: 12px;
     width:85%;
     padding-top: 30px;
     font-size: 20px;
+}
+
+#workspace h2{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+    width:100%;
+}
+
+.projectBox{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.projectContainer{
+    display: flex;
+    text-align: center;
+    background-color: var(--eton);
+    justify-content: space-between;
+    width: 100%;
+    border: 5px double var(--dark);
+    border-radius: 12px;
+    color: var(--rich);
+    padding: 12px 12px ;
+    
+    margin:0.5em   
+}
+
+.grow{
+    transition: all .2s ease-in-out;
+}
+.grow:hover{
+    transform: scale(1.1);
+}
+.grow:active{
+    transform: scale(1.1);
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:100%;
+    padding: 0 0.5 0.5 0;
+}
+footer h6{
+    text-align: center;
+    margin-bottom: 10px;
 }
