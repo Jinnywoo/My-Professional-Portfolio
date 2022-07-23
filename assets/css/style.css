@@ -10,10 +10,12 @@
     --steel:#55828B;
     --space:#3B6064;
     --rich:#042A2B;
+    
 }
 
 * {
     box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 header {
@@ -25,10 +27,12 @@ header {
     margin: auto;
     padding: 30px 30px;
     background-color: var(--dark);
+    
 }
 header h1{
     color:var(--light);
     font-size: 64px;
+    font-weight: bold;
 }
 nav a {
     color:var(--eton);
@@ -39,4 +43,41 @@ nav a {
 }
 body{
     background-color: var(--aero);
+}
+
+.containerStyle{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    background-color: var(--steel);
+    color:var(--light);
+    width:98%;
+    padding: 20px;
+    margin: 20px 0px;
+    border-bottom-right-radius: 50px;
+}
+
+#photoMyself{
+    display: flex;
+    align-items: center;
+    
+}
+
+#photoMyself img{
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 30%;
+    border-width: 5px;
+    border-color: var(--dark);
+    border-style: double;
+}
+
+.aboutMe h2{
+    font-size: 50px;
+}
+
+.aboutMe{
+    width:85%;
+    padding-top: 30px;
+    font-size: 20px;
 }
