@@ -1,0 +1,27 @@
+:root {
+    --light:#C9E4CA;
+    --eton: #87BBA2;
+    /* colors below should be paired with white/light text */
+    --dark:#364958; 
+    --steel:#55828B;
+    --space:#3B6064;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 30px;
+    background-color: var(--dark);
+}
+header h1{
+    color:var(--light);
+    font-size: 64px;
+}
